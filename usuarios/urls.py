@@ -1,5 +1,5 @@
 from django.urls import path, include
-from usuarios.views import *
+from usuarios.views import logar, cadastro, sair #feito
 from django.conf.urls.static import static
 from django.conf import settings 
 

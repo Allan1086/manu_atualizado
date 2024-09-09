@@ -21,8 +21,9 @@ PyPet é totalmente integrado ao Django Admin, uma poderosa ferramenta que possi
 1. Clone o repositório: `git clone https://github.com/seu-usuario/PyPet.git`
 2. Instale as dependências: `pip install -r requirements.txt`
 3. Realize as migrações do Django: `python manage.py migrate`
-4. Execute o servidor: `python manage.py runserver`
-5. Acesse no navegador: `http://127.0.0.1:8000/auth/login`
+4. Execute: `pip install python-dotenv`
+5. Execute o servidor: `python manage.py runserver`
+6. Acesse no navegador: `http://127.0.0.1:8000/auth/login`
 
 ## Imagens do Sistema
 

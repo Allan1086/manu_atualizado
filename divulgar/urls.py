@@ -1,5 +1,5 @@
 from django.urls import path
-from divulgar.views import *
+from divulgar.views import cadastrar_pet, seus_pets, detalhar_pet, remover_pet, pedidos, processar_pedido  #feito
 
 urlpatterns = [
     path('', cadastrar_pet, name='cadastrar_pet'),

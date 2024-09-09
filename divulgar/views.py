@@ -3,9 +3,9 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.messages import constants
-from divulgar.models import *
-from divulgar.forms import *
-from adotar.models import *
+from divulgar.models import Pet  #feito
+from divulgar.forms import CadastrarPet  #feito
+from adotar.models import PedidoAdocao  #feito
 
 # Create your views here.
 

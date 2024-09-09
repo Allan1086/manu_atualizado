@@ -1,5 +1,5 @@
 from django.contrib import admin
-from divulgar.models import *
+from divulgar.models import Raca, Pet #feito
 
 # Register your models here.
 

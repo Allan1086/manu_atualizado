@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse, redirect
-from divulgar.models import *
-from adotar.models import *
+from divulgar.models import Pet, Raca  # feito
+from adotar.models import PedidoAdocao  # feito
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages

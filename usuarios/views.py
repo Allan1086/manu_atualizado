@@ -40,7 +40,7 @@ def cadastro(request):
 
         # verificar se os campos foram preenchidos
         for campo in [username, email, senha]:
-            if len(campo.strip()) == 0 or len(campo.strip()) == None:
+            if len(campo.strip()) == 0:
                 messages.add_message(request, constants.ERROR, 'Preencha corretamente todos os campos')
                 return render(request, 'cadastro.html')
             

@@ -29,3 +29,11 @@
     color: white;
     
 }
+
+#coluna {
+    width: 20%;
+}
+
+.tabela td{
+    padding: 20px;
+}

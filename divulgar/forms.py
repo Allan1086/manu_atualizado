@@ -1,4 +1,4 @@
-from divulgar.models import *
+from divulgar.models import Pet #feito
 from django import forms
 
 class CadastrarPet(forms.ModelForm):

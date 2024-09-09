@@ -1,5 +1,5 @@
 from django.urls import path
-from adotar.views import *
+from adotar.views import listar_pets, solicitar_adocao
 
 
 urlpatterns = [
